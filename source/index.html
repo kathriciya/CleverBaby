@@ -10,172 +10,204 @@
   </head>
 
   <body>
-    <header>
-      <a href=""><img src="" alt=""></a>
-      <nav>
-        <ul>
-          <li>
-            <a href="">Методика</a>
-          </li>
-          <li>
-            <a href="">Преподаватели</a>
-          </li>
-          <li>
-            <a href="">Группы</a>
-          </li>
-          <li>
-            <a href="">Отзывы</a>
-          </li>
-          <li>
-            <a href="">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <p>+ 7 (495) 983-47-19</p>
+    <header class="header">
+      <div class="header__container container">
+        <a class="header__logo" href="#" aria-label="Иконка логотипа магазина"><img src="" alt=""></a>
+        <nav class="header__navigation navigation">
+          <button class="navigation__toggler toggler toggler--menu" type="button" id="button-menu"
+            aria-label="Переключатель меню"></button>
+          <div class="navigation__wrapper">
+            <ul class="navigation__menu menu menu--show">
+              <li class=menu__item>
+                <a class="menu__link" href="#">Методика</a>
+              </li>
+              <li class=menu__item>
+                <a class="menu__link" href="#">Преподаватели</a>
+              </li>
+              <li class=menu__item>
+                <a class="menu__link" href="#">Группы</a>
+              </li>
+              <li class=menu__item>
+                <a class="menu__link" href="#">Отзывы</a>
+              </li>
+              <li class=menu__item>
+                <a class="menu__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <a class="header__contacts contacts" href="tel:+74959834719"></a>
+        <span>+ 7 (495) 983-47-19</span>
+      </div>
     </header>
+
     <main>
-      <section>
-        <h1>Английский язык</h1>
-        <p>для детей от 2 до 7 лет</p>
-        <p>Гармоничное развитие детей и обучение
-          через полное погружение в языковую среду</p>
-          <a href="#">Записаться</a>
-      </section>
-      <section>
-        <h2>Как проходит обучение</h2>
-        <div>
-          <div>
-            <h3>Играя — обучаем, обучая — развиваем</h3>
-            <p>Мы взяли все самое лучшее из традиционных    и современных методик обучения и развития детей. Обучение английскому языку происходит легко и интересно, ведь малыши не зубрят материал по учебникам, а познают его через игру, сказки, книги и музыку.
-              Наша методика также включает в себя обучение по программе Cambridge. Благодаря этому, наши ученики без труда сдают международные и государственные экзамены. </p>
-          </div>
-          <div>
-            <h3>Посмотрите, как проходят наши занятия</h3>
-            <p>Видео</p>
-          </div>
+      <h1 class="visually-hidden">Школа английского языка для детей Clever Baby</h1>
+      <section class="promo">
+        <div class="promo__container container">
+          <h2 class="promo__title">Английский язык</h2>
+          <p class="promo__age-limit">для детей от 2 до 7 лет</p>
+          <p class="promo__text">Гармоничное развитие детей и обучение
+            через полное погружение в языковую среду</p>
+          <a class="promo__button" href="#">Записаться</a>
         </div>
       </section>
-      <section>
-        <h2>Описание</h2>
-        <ul>
-          <li>
-            <h3>Развитие 10 видов интеллекта</h3>
-            <p>Учимся общаться, развивать эмоциональный, творческий интеллект и многое другое</p>
+
+      <section class="process">
+        <div class="process__container container">
+        <h2 class="process__title">Как проходит обучение</h2>
+        <div class="process__wrapper">
+          <div class="process__text-block">
+            <h3 class="process__subtitle">Играя — обучаем, обучая — развиваем</h3>
+            <p class="process__text">Мы взяли все самое лучшее из традиционных    и современных методик обучения и развития детей. Обучение английскому языку происходит легко и интересно, ведь малыши не зубрят материал по учебникам, а познают его через игру, сказки, книги и музыку.
+              Наша методика также включает в себя обучение по программе Cambridge. Благодаря этому, наши ученики без труда сдают международные и государственные экзамены. </p>
+          </div>
+          <div class="process__video-block">
+            <h3 class="process__subtitle">Посмотрите, как проходят наши занятия</h3>
+            <p class="process__video">Видео</p>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <section class="types">
+        <h2 class="visually-hidden">Виды обучения</h2>
+        <ul class="types__list">
+          <li class="types__item">
+            <h3 class="types__subtitle">Развитие 10 видов интеллекта</h3>
+            <p class="types__text">Учимся общаться, развивать эмоциональный, творческий интеллект и многое другое</p>
           </li>
-          <li>
-            <h3>Языковое погружение</h3>
-            <p>Занятия проходят полностью на английском языке, независимо от типа задания</p>
+          <li class="types__item">
+            <h3 class="types__subtitle">Языковое погружение</h3>
+            <p class="types__text">Занятия проходят полностью на английском языке, независимо от типа задания</p>
           </li>
-          <li>
-            <h3>Педагоги — носители языка</h3>
-            <p>Занятия ведут преподаватели         из США, Великобритании и Канады, для которых английский язык является родным</p>
+          <li class="types__item">
+            <h3 class="types__subtitle">Педагоги — носители языка</h3>
+            <p class="types__text">Занятия ведут преподаватели         из США, Великобритании и Канады, для которых английский язык является родным</p>
           </li>
-          <li>
-            <h3>Небольшие группы</h3>
-            <p>Дети занимаются в группах до 5 человек, что позволяет применять индивидуальный подход к каждому</p>
+          <li class="types__item">
+            <h3 class="types__subtitle">Небольшие группы</h3>
+            <p class="types__text">Дети занимаются в группах до 5 человек, что позволяет применять индивидуальный подход к каждому</p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Наши группы</h2>
-        <p>В группах занимается до 5 человек. Все дети в группе примерно одного возраста и уровня знаний.</p>
-        <ul>
-          <li>
-            <h3>Бэбики-1</h3>
-            <ul>
-              <li>1 раз в неделю</li>
-              <li>1,5 часа занятие</li>
-              <li> <span>2500 P</span>>в месяц</li>
+
+      <section class="groups">
+        <div class="groups__container container">
+        <h2 class="groups__title">Наши группы</h2>
+        <p class="groups__text">В группах занимается до 5 человек. Все дети в группе примерно одного возраста и уровня знаний.</p>
+        <ul class="groups__list">
+          <li class="groups__item">
+            <h3 class="groups__subtitle">Бэбики-1</h3>
+            <ul class="groups__text-list">
+              <li class="groups__text-item">1 раз в неделю</li>
+              <li class="groups__text-item">1,5 часа занятие</li>
+              <li class="groups__text-item"><span>2500 P</span>в месяц</li>
             </ul>
-            <a href="">Записаться</a>
+            <a class="groups__button button" href="">Записаться</a>
           </li>
-          <li>
-            <h3>Бэбики-2</h3>
-            <ul>
-              <li>2 раз в неделю</li>
-              <li>1,5 часа занятие</li>
-              <li> <span>4000 P</span>>в месяц</li>
+          <li class="groups__item">
+            <h3 class="groups__subtitle">Бэбики-2</h3>
+            <ul class="groups__text-list">
+              <li class="groups__text-item">2 раз в неделю</li>
+              <li class="groups__text-item">1,5 часа занятие</li>
+              <li class="groups__text-item"><span>4000 P</span>в месяц</li>
             </ul>
-            <a href="">Записаться</a>
+            <a class="groups__button button" href="">Записаться</a>
           </li>
-          <li>
-            <h3>Бэбики-3</h3>
-            <ul>
-              <li>3 раз в неделю</li>
-              <li>1 часа занятие</li>
-              <li> <span>4000 P</span>>в месяц</li>
+          <li class="groups__item">
+            <h3 class="groups__subtitle">Бэбики-3</h3>
+            <ul class="groups__text-list">
+              <li class="groups__text-item">3 раз в неделю</li>
+              <li class="groups__text-item">1 часа занятие</li>
+              <li class="groups__text-item"><span>4000 P</span>в месяц</li>
             </ul>
-            <a href="">Записаться</a>
+            <a class="groups__button button" href="">Записаться</a>
           </li>
         </ul>
+      </div>
       </section>
-      <section>
-        <h2>Наши преподаватели</h2>
-        <p>Все наши преподаватели — носители английского языка и имеют необходимое образование и опыт работы с детьми</p>
-        <ul>
-          <li><img src="" alt="">
-            <p>Kate Smith</p>
-            <p>США</p>
+
+      <section class="teachers slider">
+        <h2 class="teachers__title">Наши преподаватели</h2>
+        <p class="teachers__text">Все наши преподаватели — носители английского языка и имеют необходимое образование и опыт
+          работы с детьми</p>
+        <ul class="teachers__list">
+          <li class="teachers__item"><img src="" alt="">
+            <p class="teachers__name">Kate Smith</p>
+            <p class="teachers__city">США</p>
           </li>
-          <li><img src="" alt="">
-            <p>Samuel King</p>
-            <p>США</p>
+          <li class="teachers__item"><img src="" alt="">
+            <p class="teachers__name">Samuel King</p>
+            <p class="teachers__city">США</p>
           </li>
-          <li><img src="" alt="">
-            <p>Nikole Young</p>
-            <p>Канада</p>
+          <li class="teachers__item"><img src="" alt="">
+            <p class="teachers__name">Nikole Young</p>
+            <p class="teachers__city">Канада</p>
           </li>
-          <li><img src="" alt="">
-            <p>Karoline Bush</p>
-            <p>Канада</p>
+          <li class="teachers__item"><img src="" alt="">
+            <p class="teachers__name">Karoline Bush</p>
+            <p class="teachers__city">Канада</p>
           </li>
         </ul>
+        <a class="teachers__prev slider__prev" href="#"></a>
+        <a class="teachers__next slider__next" href="#"></a>
       </section>
-      <aside>
-        <h2>Запишитесь на бесплатное пробное занятие</h2>
-        <p>Приходите к нам в гости и мы познакомим вас с педагогами, расскажем о школе               и ответим на все ваши вопросы</p>
-        <a href="">Записаться</a>
+
+
+      <aside class="banner">
+        <h2 class="banner__title">Запишитесь на бесплатное пробное занятие</h2>
+        <p class="banner__text">Приходите к нам в гости и мы познакомим вас с педагогами, расскажем о школе               и ответим на все ваши вопросы</p>
+        <a class="banner__button button" href="">Записаться</a>
       </aside>
+
     </main>
-    <footer>
-      <div>
-        <div>
-          <h2>Мы ждем вас</h2>
-          <ul>
-            <li>
-              <p>Приходите к нам:</p>
-              <p>Санкт-Петербург,
+
+    <footer class="footer">
+      <div class="footer__container container">
+
+        <div class="footer__section">
+          <section class="contacts">
+          <h2 class="contacts__title">Мы ждем вас</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <p class="contacts__text">Приходите к нам:</p>
+              <p class="contacts__info">Санкт-Петербург,
                 ул. Большая Конюшенная, 19</p>
             </li>
-            <li>
-              <p>Режим работы:</p>
-              <p>Пн-Сб, с 9-00 до 20-00</p>
+            <li class="contacts__item">
+              <p class="contacts__text">Режим работы:</p>
+              <p class="contacts__info">Пн-Сб, с 9-00 до 20-00</p>
             </li>
-            <li>
-              <p>Позвоните нам:</p>
-              <p>+ 7 (495) 983-47-19</p>
+            <li class="contacts__item">
+              <p class="contacts__text">Позвоните нам:</p>
+              <p class="contacts__info">+ 7 (495) 983-47-19</p>
             </li>
-            <li>
-              <p>Напишите нам:</p>
-              <p>info@cleverbaby.ru</p>
+            <li class="contacts__item">
+              <p class="contacts__text">Напишите нам:</p>
+              <p class="contacts__info">info@cleverbaby.ru</p>
             </li>
-            <li>
-              <p>Мы в соцсетях:</p>
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+            <li class="contacts__item">
+              <p class="contacts__text">Мы в соцсетях:</p>
+              <ul class="contacts__social social">
+                <li class="social__item"><a class="social__link" href="#" aria-label="Мы в Facebook"></a></li>
+                <li class="social__item"><a class="social__link" href="#" aria-label="Мы в VKontakte"></a></li>
+                <li class="social__item"><a class="social__link" href="#" aria-label="Мы в Instagtam"></a></li>
               </ul>
             </li>
           </ul>
+        </section>
+        </div>
 
+        <div class="footer__map map">
+          <img class="map__img" src="" alt="Санкт-Петербург,
+          ул. Большая Конюшенная, 19">
         </div>
-        <div>
-          <img src="" alt="">
-        </div>
-        <div>
-          <p>CleverBaby</p>
-          <p>2020 Все права защищены</p>
+
+        <div class="footer__copyright copyright">
+          <p class="copyright__text"><a href="#">CleverBaby 2020 Все права защищены</a></p>
+          <p class="copyright__text"><a href="">Политика конфиденциальности</a></p>
         </div>
       </div>
     </footer>
